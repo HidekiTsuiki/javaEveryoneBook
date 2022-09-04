@@ -1,0 +1,5 @@
+.hbox{
+	-fx-spacing: 20;   /* 子ノード間隔 */
+	-fx-padding: 15 10 15 10;  /* 余白 */
+	-fx-alignment: center;  /* 子ノードの位置合わせ */
+}

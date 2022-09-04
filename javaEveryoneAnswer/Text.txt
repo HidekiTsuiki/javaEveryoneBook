@@ -1,0 +1,2 @@
+FileReader，FileWriterクラスは文字の入出力にデフォルトの文字コードを使う。InputStreamReader，OutputStreamWriterを使って入出力すると，これを変更できる。たとえば，リスト16.1において，コピー元のファイルの文字コードがShift-JISで，これをUTF-8に変換してコピーするなら，5，6行目をリスト16.2に置き換える。
+リスト16.2の3，4行目では，OutputStreamWriterクラスのコンストラクタの第1引数にFileOutputStreamオブジェクトを，第2引数には文字コード名を指定している。

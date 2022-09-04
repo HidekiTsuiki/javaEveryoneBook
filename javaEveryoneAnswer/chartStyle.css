@@ -1,0 +1,28 @@
+.chart {
+   -fx-background-color:  #fff;
+}
+.chart-legend{
+   -fx-background-color:  #fff;
+}
+
+.default-color0.chart-line-symbol {  /*大きい 白抜き円*/
+    -fx-padding: 7px;
+}
+.default-color1.chart-line-symbol {  /*大きい 白抜き四角*/
+    -fx-background-radius: 0;
+    -fx-padding: 7px;
+}
+.default-color2.chart-line-symbol {  /*緑塗り四角*/
+    -fx-background-color: mediumseagreen ;
+    -fx-background-radius: 0;
+}
+.default-color3.chart-line-symbol {  /*小さい青塗り円*/
+    -fx-background-color: lightskyblue;
+    -fx-padding: 3px;
+}
+.default-color4.chart-line-symbol {  /*白抜き四角*/
+    -fx-background-radius: 0;
+}
+.default-color5.chart-line-symbol {  /*小さい白抜き円*/
+    -fx-padding: 3px;
+}

@@ -1,0 +1,37 @@
+
+.label{
+	-fx-background-color: white;
+}	
+
+.pane {
+    -fx-background-color: grey;
+    -fx-border-color: black;
+    -fx-background-insets: 5; // 背景と領域境界との間の間隔
+    -fx-border-insets:10;  //境界線外枠と背景枠との間隔
+    -fx-border-width: 3;
+    
+    -fx-padding: 10;
+    }
+    
+    /*   1
+        -fx-border-width: 3;
+	-fx-padding: 10;
+	*/
+	
+    /*   2  
+        -fx-border-insets:10;  //境界線外枠と背景枠との間隔
+        -fx-border-width: 3;
+	-fx-padding: 10;
+	*/
+	
+    /*   3  
+        -fx-background-insets: 5; // 背景と領域境界との間の間隔
+        -fx-border-width: 3;
+	-fx-padding: 10;
+	*/
+    /*   4  
+        -fx-background-insets: 5; // 背景と領域境界との間の間隔
+        -fx-border-insets:10;  //境界線外枠と背景枠との間隔
+        -fx-border-width: 3;
+	-fx-padding: 10;
+	*/

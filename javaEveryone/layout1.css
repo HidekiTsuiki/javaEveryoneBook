@@ -1,0 +1,13 @@
+.label{
+	-fx-padding: 10 10 10 0;
+	-fx-text-fill: #ff0000;
+	-fx-border-color: #ff0000;
+        -fx-border-style: dashed;
+        -fx-border-width: 2 0;
+    	-fx-border-insets: 0 0 20 0;
+}
+.myPane{
+	-fx-background-color: #cccccc;
+	-fx-padding: 20;
+	-fx-font-size: 20;
+}
